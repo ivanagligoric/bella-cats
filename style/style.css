@@ -1,0 +1,706 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1dcab;
+    width: 100%;
+}
+
+*{
+    font-family: 'Kalnia', serif;
+}
+
+.navbar{
+    background-color: #fff6ce;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.navbar .logo{
+    width: 120px;
+}
+
+.nav-menu .nav-item{
+    display: inline;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.nav-menu .nav-item a{
+    color: 	darkslategray;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+}
+
+.nav-menu .nav-item a:hover{
+    background-color: burlywood;
+}
+
+.hero-image{
+    background-image: url('../img/heroimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    opacity: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image .hero-card h1{
+    margin-top: 400px;
+    background-color: #f1dcab;
+    color: 	#222222;
+    font-size: 50px;
+}
+
+.o-nama{
+    text-align: center;
+    font-size: 30px;
+    color: darkslategray;
+    display: block;
+    background-color: #f1dcab;;
+    
+}
+
+.o-nama h2{
+    font-size: 40px;
+    color: darkslategray;
+    background-color: #f1dcab;
+}
+
+.o-nama p{
+    background-color: #f1dcab;
+}
+
+.o-nama ul li{
+    list-style-type: none;
+    font-weight: bold;
+    background-color: #f1dcab;
+}
+
+.button{
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a{
+    background-color: burlywood;
+    padding: 25px 40px;
+    font-size: 30px;
+    color: darkslategray;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.button a:hover{
+    color: #fff6ce;
+    background-color: darkslategray;
+
+}
+
+.galerija{
+    text-align: center;
+    font-size: 30px;
+    color: darkslategray;
+    display: block;
+    background-color: #f1dcab;
+}
+.galerija img{
+    height: 400px;
+    width: 450px;
+    border: 5px solid burlywood;
+}
+
+.footer{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 120px;
+    display: block;
+}
+
+.footer-socials{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.footer-socials i{
+    font-size: 30px;
+    margin: 0px 15px;
+    color: darkslategray;
+    
+}
+
+.footer p{
+    width: 550px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    color: darkslategray;
+    white-space: nowrap;
+  
+    animation-name: Bella; 
+    animation-duration: 10s; 
+    animation-direction: alternate;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+
+}
+
+@keyframes Bella {
+    from{
+        left: 0;
+    }
+
+    to{
+        left: 68%;
+    }
+
+}
+
+.usluge{
+    text-align: center;
+    font-size: 25px;
+    color: darkslategray;
+    display: block;
+    background-color: burlywood;
+    padding-bottom: 70px;
+
+}
+
+.usluge p{
+    background-color: burlywood;
+    width: 1000px;
+    margin: auto;
+}
+
+.usluge h1{
+    background-color: burlywood;
+    width: 300px;
+    margin: auto;
+}
+
+
+.cene{
+    text-align: center;
+    font-size: 30px;
+    color: darkslategray;
+    display: block;
+    background-color: #f1dcab;  
+}
+
+.card-wrap{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.card-wrap .card{
+    width: 300px;
+    margin: 0px 30px;
+    height: 325px;
+    border: 5px solid #fff6ce;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+}
+
+.card h3{
+    text-align: center;
+    font-size: 25px;
+    background-color: #fff6ce;
+}
+
+.card h4{
+    margin: 10px;
+    background-color: #fff6ce;
+    font-size: 20px;
+}
+
+.contact{
+    text-align: center;
+    font-size: 25px;
+    color: darkslategray;
+    display: block;
+    background-color: #f1dcab;
+    width: 100%;
+}
+
+.contact-form{
+    text-align: center;
+    font-size: 25px;
+    color: darkslategray;
+    display: block;
+    background-color: #fff6ce;
+    margin: 100px 0px;
+    width: 100%;
+    align-items: center;
+}
+
+.form{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 5px solid #fff6ce;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.secondary-button{
+    padding: 25px 40px;
+    font-size: 20px;
+    color: darkslategray;
+    text-decoration: none;
+    transition: 0.3s ease;
+    width: 60px;
+    margin: 0px 665px;
+}
+
+.secondary-button a{
+    background-color: burlywood;
+    padding: 25px 40px;
+    font-size: 20px;
+    color: darkslategray;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.secondary-button a:hover{
+    color: #fff6ce;
+    background-color: darkslategray;
+
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .navbar{
+        display: block;
+        padding: 0px;
+        height: 120px;
+    }
+    
+    .nav-menu{
+        display: block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-logo img{
+        display: block;
+        margin: auto;
+        width: 10px;
+        height: 80px;
+    }
+
+    .nav-menu .nav-item{
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .nav-menu .nav-item a{
+        padding: 5px;
+    }
+
+    .hero-image{
+        height: 30vh;
+    }
+
+    .hero-image .hero-card{
+        padding: 0px 10px;
+    }
+
+    .hero-image .hero-card h1{
+        font-size: 20px;
+        margin: 130px 0px 5px 0px;
+
+    }
+
+    .o-nama h2{
+        font-size: 20px;
+    }
+
+    .o-nama p{
+        font-size: 15px;
+        margin: auto;
+    }
+
+    .o-nama ul li{
+        font-size: 15px;
+        margin-right: 40px;
+        margin-bottom: 0px;
+    }
+
+    .o-nama ul{
+        margin: 5px;
+    }
+
+    .button{
+        height: 50px;
+    }
+
+    .button a{
+        font-size: 15px;
+        margin: 0px 50px;
+        padding: 10px;
+    }
+
+    .galerija h3{
+        font-size: 15px;
+        margin: 0px 50px;
+    }
+
+    .galerija img{
+        margin: 5px;
+        width: 300px;
+        height: 200px;
+    }
+
+    .footer{
+        width: 350px;
+        height: 80px;
+    
+    }
+
+    .footer-socials{
+        width: 100%;
+        margin-right: 400px;
+
+    }
+
+    .footer p{
+        font-size: 15px;
+        margin-top: 5px;
+        position: absolute;
+        width: 250px;
+       
+    }
+
+    @keyframes Bella {
+        from{
+            left: 0;
+        }
+    
+        to{
+            left: 37%;
+        }
+    }
+
+    .usluge{
+        height: 150px;
+
+    }
+
+    .usluge h1{
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .usluge p{
+        font-size: 15px;
+        align-items: center;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .cene h2{
+        font-size: 20px;
+    }
+
+    .card-wrap{
+        align-items: center;
+        padding:0px;
+        display: inline;
+    }
+
+    .card{
+        width: 100px;
+        height: 150px;
+    }
+    
+    .card h3{
+        font-size: 15px;
+    }
+
+    .card h4{
+        font-size: 15px;
+    }
+
+    .contact-info{
+        height: 100px;
+    }
+
+    .contact-info h1{
+        font-size: 25px;
+        padding: 5px;
+    }
+    
+    .contact-info p{
+    font-size: 20px;
+    align-items: center;
+    width: 350px;
+    padding: 5px;
+    }
+
+    .contact-form{
+        margin-bottom: 0px;
+    }
+
+    .contact-form h2{
+        font-size: 20px;
+    }
+
+    .contact-form p{
+        font-size: 17px;
+    }
+
+    .form-inline{
+        font-size: 15px;
+        display: block;
+        padding: 0 80px;
+
+    }
+
+    #poruka{
+        width: 200px;
+    }
+
+    .secondary-button{
+        height: 50px;
+        margin: auto;
+    }
+
+    .secondary-button a{
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .navbar{
+        display: block;
+        padding: 0px;
+        height: 120px;
+    }
+    
+    .nav-menu{
+        display: block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-logo img{
+        display: block;
+        margin: auto;
+        width: 10px;
+        height: 80px;
+    }
+
+    .nav-menu .nav-item{
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    .nav-menu .nav-item a{
+        padding: 5px;
+    }
+
+    .hero-image{
+        height: 30vh;
+    }
+
+    .hero-image .hero-card{
+        padding: 0px 10px;
+    }
+
+    .hero-image .hero-card h1{
+        font-size: 27px;
+        margin: 130px 0px 5px 0px;
+
+    }
+
+    .o-nama h2{
+        font-size: 25px;
+    }
+
+    .o-nama p{
+        font-size: 18px;
+        margin: auto;
+    }
+
+    .o-nama ul li{
+        font-size: 18px;
+        margin-right: 40px;
+        margin-bottom: 0px;
+    }
+
+    .o-nama ul{
+        margin: 5px;
+    }
+
+    .button{
+        height: 50px;
+    }
+
+    .button a{
+        font-size: 18px;
+        margin: 0px 50px;
+        padding: 10px;
+    }
+
+    .galerija h3{
+        font-size: 18px;
+        margin: 0px 50px;
+    }
+
+    .galerija img{
+        margin: 5px;
+        width: 300px;
+        height: 200px;
+    }
+
+    .footer{
+        width: 730px;
+        height: 80px;
+    
+    }
+
+    .footer-socials{
+        width: 100%;
+    }
+
+    .footer p{
+        font-size: 15px;
+        margin-top: 5px;
+        position: absolute;
+        width: 250px;
+       
+    }
+
+    @keyframes Bella {
+        from{
+            left: 0;
+        }
+    
+        to{
+            left: 70%;
+        }
+    }
+
+    .usluge{
+        height: 130px;
+
+    }
+
+    .usluge h1{
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .usluge p{
+        font-size: 20px;
+        align-items: center;
+        width: 700px;
+        padding: 5px;
+    }
+
+    .cene{
+        margin-bottom: 20px;
+    }
+
+    .cene h2{
+        font-size: 20px;
+    }
+
+    .card-wrap{
+        align-items: center;
+        padding:0px;
+        display: flex;
+    }
+
+    .card{
+        width: 600px;
+        height: 150px;
+    }
+    
+    .card h3{
+        font-size: 15px;
+    }
+
+    .card h4{
+        font-size: 15px;
+    }
+
+    .contact-info{
+        height: 100px;
+    }
+
+    .contact-info h1{
+        font-size: 25px;
+        padding: 0px;
+    }
+    
+    .contact-info p{
+    font-size: 20px;
+    align-items: center;
+    width: 350px;
+    padding: 5px;
+    margin: auto;
+    }
+
+    .contact-form{
+        margin-bottom: 0px;
+    }
+
+    .contact-form h2{
+        font-size: 20px;
+    }
+
+    .contact-form p{
+        font-size: 17px;
+    }
+
+    .form-inline{
+        font-size: 15px;
+        display: block;
+        padding: 0 80px;
+        margin: auto;
+    }
+
+    #poruka{
+        width: 400px;
+    }
+
+
+    .secondary-button{
+        height: 50px;
+        margin: auto;
+    }
+
+    .secondary-button a{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+}
